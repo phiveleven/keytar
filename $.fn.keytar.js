@@ -4,4 +4,5 @@ $.fn.keytar = function(keyCode, method){
     if (e.keyCode == keyCode)
       $(this)[method]();
   }.bind(this));
+  return this;
 };
