@@ -9,7 +9,9 @@ so you can party like it's 2013
 
 Features
 ========
-Not released:
+* <code> $(selector).keytar( keyCode, fn ) </code>
+
+future:
 * when active, 
     it can (visually) suggest options to help in API discoverability
 * when an option is selected, 
